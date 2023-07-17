@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html ::-webkit-scrollbar {
+    display: none;
+}
+
+.nav {
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-color: white;
+    box-shadow: 0px 1px 2px 2px grey;
+}
+
+.left {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 95%;
+    height: 50px;
+}
+
+.left ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid pink; */
+}
+
+.logo {
+    width: 150px;
+    display: flex;
+    /* border : 2px solid aqua; */
+    align-items: center;
+    padding: 2px 0px;
+}
+
+.logo img {
+    height: 50px;
+    width: 100%;
+    /* border : 2px solid rgb(0, 255, 13); */
+}
+
+.left ul li {
+    list-style: none;
+}
+
+.left ul li a {
+    text-align: center;
+    padding: 3px 8px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    /* border: 2px solid red; */
+    border-radius: 36px;
+}
+
+.left ul li a:hover {
+    background-color: rgb(207, 203, 203);
+    color: white;
+}
+
+.right {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 100px;
+    height: 50px;
+}
+
+.right img {
+    /* border: 2px solid red; */
+    height: 35px;
+    width: 40px;
+    cursor: pointer;
+    /* filter: drop-shadow(2px 2px rgb(189, 241, 245)); */
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.explore {
+    /* border: 2px solid red; */
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* height: 500px; */
+    margin: auto;
+    justify-content: space-around;
+    background-color: rgb(248, 246, 246);
+}
+
+.ex_left {
+    /* font-family: 'Ysabeau Infant', sans-serif; */
+    font-family: 'Paytone One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid purple; */
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex_left h3 {
+    color: blue;
+    font-weight: 1000;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.ex_left h3 span {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.ex_right {
+    /* height: 100%; */
+    width: 40vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.ex_right img {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.motive {
+    /* border: 2px solid red; */
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.motive_image {
+    /* border: 2px solid black; */
+    width: 35%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 20px 0px;
+    /* height: 500px; */
+
+}
+
+.motive_image img {
+    margin: 20px;
+    /* border: 2px solid pink; */
+    height: 500px;
+    /* width: 300px; */
+
+}
+
+
+.motive_img1 {
+    display: flex;
+    /* border: 2px solid blue; */
+    margin: 20px 0px;
+    justify-content: space-evenly;
+    /* filter: drop-shadow(3px 3px 5px rgb(238, 255, 0)); */
+}
+
+.motive_img1 h4 {
+    /* border: 2px solid green; */
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    text-shadow: 2px 2px yellow;
+}
+
+.motive_img1 img {
+    /* border: 2px solid green; */
+    width: 200px;
+    height: 200px;
+
+}
+
+.motive_text {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid purple; */
+    width: 58%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    /* border: 2px solid aqua; */
+    margin: 40px 0px;
+    /* width: 350px; */
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+    color: blue;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.notes {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 246, 246);
+
+}
+
+.heading {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.heading h2 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    /* border: 2px solid cyan; */
+    margin: 20px 5px;
+    text-shadow: 2px 2px yellow;
+}
+
+.heading p {
+    font-family: 'Ysabeau Infant', sans-serif;
+    margin: 10px 0px;
+    /* width: 350px; */
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 1.7rem;
+    /* padding: 5px; */
+    color: blue;
+}
+
+.card {
+    /* border: 1px solid aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0px;
+    flex-wrap: wrap;
+}
+
+.card-design {
+    margin: 15px 10px;
+    /* border: 2px solid black; */
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.n-image {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.n-image img {
+    margin: 5px 5px;
+    /* border: 2px solid brown; */
+    border-radius: 3000px;
+    width: 50%;
+    height: 50%;
+    /* filter: drop-shadow(2px 2px 3px rgb(238, 255, 0)); */
+}
+
+.n-text {
+    /* border: 2px solid pink; */
+    font-family: 'Ysabeau Infant', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.n-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    margin: 2px 0px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.contact-us {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.c-text {
+    /* border: 2px solid red; */
+    margin: 15px 0px;
+}
+
+.c-text h2 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 5px;
+    text-shadow: 2px 2px yellow;
+}
+
+.img-form {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    justify-content: space-evenly;
+}
+
+.c-img {
+    /* border: 2px solid cyan; */
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.c-img img {
+    width: 90%;
+    height: 75%;
+    /* filter: drop-shadow(3px 3px 5px rgb(238, 255, 0)); */
+}
+
+.form {
+    /* border: 2px solid brown; */
+    margin: 15px 0px;
+    padding: 15px 0px;
+    background-color: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.form input,
+textarea {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 75%;
+    margin: 15px 0px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px grey;
+
+}
+
+.form input::placeholder {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* outline: none; */
+}
+
+.form textarea {
+    height: 150px;
+}
+
+.c-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0px;
+    /* border: 2px solid crimson; */
+    width: 75%;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.footer {
+    background-color: black;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 1.2rem;
+}
